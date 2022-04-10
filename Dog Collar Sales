@@ -1,0 +1,10 @@
+CREATE TABLE dog_collar_sales (id INTEGER PRIMARY KEY, size TEXT, sold INTEGER, price INTEGER);
+
+INSERT INTO dog_collar_sales VALUES (1, "XS", 50, 10);
+INSERT INTO dog_collar_sales VALUES (2, "SMALL", 42, 12);
+INSERT INTO dog_collar_sales VALUES (3, "MEDIUM", 36, 14);
+INSERT INTO dog_collar_sales VALUES (4, "LARGE", 20, 16);
+INSERT INTO dog_collar_sales VALUES (5, "XL", 10, 18);
+SELECT * FROM dog_collar_sales;
+SELECT * FROM dog_collar_sales;
+SELECT * FROM dog_collar_sales WHERE sold > 18 ORDER BY price DESC;
